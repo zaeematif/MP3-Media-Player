@@ -29,7 +29,7 @@ body {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .music-player {
     height: 90vh;
   }
