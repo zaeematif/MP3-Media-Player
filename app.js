@@ -93,8 +93,8 @@ const setMusic = (i) => {
   let song = songs[i];
   music.src = song.songUrl;
 
-  artistName.innerHTML = song.songName;
-  songName.innerHTML = song.singer;
+  artistName.innerHTML = song.singer;
+  songName.innerHTML = song.songName;
 
   disc.style.backgroundImage = `url("${song.image}.jpg")`;
 
