@@ -28,6 +28,17 @@ body {
   color: rgb(189, 64, 84);
 }
 
+
+@media (max-width: 600px) {
+  .music-player {
+    height: 90vh;
+  }
+
+  .header {
+    margin-top: 40px;
+  }
+}
+
 .music-name, .artist-name {
   text-align: center;
   text-transform: capitalize;
